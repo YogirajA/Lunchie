@@ -1,0 +1,15 @@
+{
+  "name": "YummyLunchie",
+  "version": "0.0.0",
+  "description": "YummyLunchie",
+  "main": "app.js",
+  "author": {
+    "name": "Yogi",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "stylus": "*",
+    "vash": "^0.7.12-1"
+  }
+}

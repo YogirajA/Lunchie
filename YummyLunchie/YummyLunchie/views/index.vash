@@ -1,0 +1,14 @@
+﻿@html.extend('layout',function(model){
+   @html.block('body',function(model){
+	   <h1>@model.title</h1>
+	   @if(model.error){
+			<p>Error occured:@model.error</p>
+	   }
+
+	   
+	    <div><a href="/api/suggestions/Monday">Monday Suggestions</a></div>
+	    <div><a href="/api/suggestions/Tuesday">Tuesday Suggestions</a></div>
+	    <div><a href="/api/suggestions/Wednesday">Wednesday Suggestions</a></div>
+	    <div><a href="/api/suggestions/Thursday">Thursday Suggestions</a></div>
+   })
+})
